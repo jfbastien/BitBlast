@@ -1,0 +1,215 @@
+c Outputting solution to console
+c CryptoMiniSat version 70d17dc926dc2d1714853de04482225c5a702901
+c compiled with gcc version 4.2.1 Compatible Clang 3.4 (trunk 192034) (llvm/trunk 192031)
+c Executed with command line:cryptominisat ./input.cpp.cnf_boolean__Z16CHECK_parity_1_4j
+c Reading file './input.cpp.cnf_boolean__Z16CHECK_parity_1_4j'
+c -- header says num vars:              0
+c -- header says num clauses:           0
+c -- clauses added:            0 learnts,            0 normals 
+c -- vars added          0
+c Parsing time: 0.00 s
+c size4: 0 size5: 0 larger: 0
+c [clean] T: 0.0000 s
+c Doing burst search for 300 conflicts
+c 300-long burst search  learnt units:0 learnt bins: 0
+c Verified 0 clauses.
+c Verified 0 clauses.
+c ------- FINAL TOTAL SOLVING STATS ---------
+c UIP search time          : 0.00        (-nan      % time)
+c restarts                 : 1           (0.00      confls per restart)
+c time                     : 0.00        
+c decisions                : 0           (-nan      % random)
+c decisions/conflicts      : -nan        
+c CONFLS stats
+c conflicts                : 0           (-nan      / sec)
+c conflsBinIrred           : 0           (-nan      %)
+c conflsBinRed             : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsLongIrred          : 0           (-nan      %)
+c conflsLongRed            : 0           (-nan      %)
+c LEARNT stats
+c units learnt             : 0           (-nan      % of conflicts)
+c bins learnt              : 0           (-nan      % of conflicts)
+c tris learnt              : 0           (-nan      % of conflicts)
+c long learnt              : 0           (-nan      % of conflicts)
+c otf-subs                 : 0           (-nan      /conflict)
+c otf-subs implicit        : 0           (-nan      %)
+c otf-subs long            : 0           (-nan      %)
+c otf-subs learnt          : 0           (-nan      % otf subsumptions)
+c otf-subs lits gained     : 0           (-nan      lits/otf subsume)
+c SEAMLESS HYPERBIN&TRANS-RED stats
+c advProp called           : 0           
+c hyper-bin add bin        : 0           (-nan      bin/call)
+c trans-red rem irred bin  : 0           (-nan      bin/call)
+c trans-red rem red bin    : 0           (-nan      bin/call)
+c CONFL LITS stats
+c orig                     : 0           (-nan      lit/confl)
+c rec-min effective        : 0           (-nan      % attempt successful)
+c rec-min lits             : 0           (-nan      % less overall)
+c further-min call%        : -nan        (-nan      % attempt successful)
+c bintri-min lits          : 0           (-nan      % less overall)
+c cache-min lits           : 0           (-nan      % less overall)
+c stamp-min call%          : -nan        (-nan      % attempt successful)
+c stamp-min lits           : 0           (-nan      % less overall)
+c final avg                : -nan        
+c Memory used              : 28.14        MB
+c single-thread CPU time   : 0.00         s
+c PROP stats
+c Mbogo-props              : 0.00        (-nan      / sec)
+c MHyper-props             : 0.00        (-nan      / sec)
+c Mprops                   : 0.00        (-nan      / sec)
+c varSetPos                : 0           (-nan      % of propagations)
+c varSetNeg                : 0           (-nan      % of propagations)
+c flipped                  : 0           (-nan      % of propagations)
+c props/decision           : -nan        
+c props/conflict           : -nan        
+c ------- FINAL TOTAL SOLVING STATS END ---------
+c clause clean time        : 0.00        (-nan      % time)
+c ------ CLEANING STATS ---------
+c pre-removed              : 0           (-nan      % long learnt clauses)
+c pre-removed lits         : 0           (-nan      % long learnt lits)
+c pre-removed cl avg size  : -nan        
+c pre-removed cl avg glue  : -nan        
+c pre-removed cl avg num resolutions: -nan        
+c clean by glue            : 0           (-nan      % cleans)
+c clean by size            : 0           (-nan      % cleans)
+c clean by prop&confl      : 0           (-nan      % cleans)
+c cleaned cls              : 0           (-nan      % long learnt clauses)
+c cleaned lits             : 0           (-nan      % long learnt lits)
+c cleaned cl avg size      : -nan        
+c cleaned avg glue         : -nan        
+c remain cls               : 0           (-nan      % long learnt clauses)
+c remain lits              : 0           (-nan      % long learnt lits)
+c remain cl avg size       : -nan        
+c remain avg glue          : -nan        
+c ------ CLEANING STATS END ---------
+c reachability time        : 0.00        (-nan      % time)
+c ------- REACHABILITY STATS -------
+c time                     : 0.00        
+c dominator lits           : -nan        % of unknowns lits
+c dependent lits           : -nan        % of unknown lits
+c avg num. dominated lits  : -nan        
+c ------- REACHABILITY STATS END -------
+c 0-depth assigns          : 0           (-nan      % vars)
+c 0-depth assigns by thrds : 0           (-nan      % vars)
+c 0-depth assigns by CNF   : 0           (-nan      % vars)
+c probing time             : 0.00        (-nan      % time)
+c -------- PROBE STATS ----------
+c probe time               : 0.00        (-nan      (Mega BP+HP)/s)
+c called                   : 0           (-nan      s/call)
+c unused Mega BP+HP        : 0.00        (-nan      est. secs)
+c 0-depth-assigns          : 0           (-nan      % vars)
+c bothsame                 : 0           (-nan      % visited)
+c probed                   : 0           (-nan      probe/sec)
+c loop iters               : 0           (-nan      % var probed)
+c failed                   : 0           (-nan      % of probes)
+c visited                  : 0.00        M lits (-nan      % of available lits)
+c bin add                  : 0           (-nan      % of bins)
+c irred bin rem            : 0           (-nan      % of bins)
+c red bin rem              : 0           (-nan      % of bins)
+c time                     : 0.00        s
+c CONFLS stats
+c conflicts                : 0           (-nan      / sec)
+c conflsBinIrred           : 0           (-nan      %)
+c conflsBinRed             : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsLongIrred          : 0           (-nan      %)
+c conflsLongRed            : 0           (-nan      %)
+c PROP stats
+c Mbogo-props              : 0.00        (-nan      / sec)
+c MHyper-props             : 0.00        (-nan      / sec)
+c Mprops                   : 0.00        (-nan      / sec)
+c varSetPos                : 0           (-nan      % of propagations)
+c varSetNeg                : 0           (-nan      % of propagations)
+c flipped                  : 0           (-nan      % of propagations)
+c -------- PROBE STATS END ----------
+c Simplifier time          : 0.00        (-nan      % time)
+c -------- Simplifier STATS ----------
+c time                     : 0.00        (-nan      % var-elim)
+c timeouted                : -nan        % called
+c called                   : 0           (-nan      s per call)
+c v-elimed                 : 0           (-nan      % vars)
+c v-elimed: 0 / 0 / 0
+c 0-depth assigns          : 0           (-nan      % vars)
+c lit-rem-str              : 0           
+c cl-new                   : 0           
+c tried to elim            : 0           (-nan      % agressively)
+c cl-subs                  : 0           (-nan      % clauses)
+c blocked                  : 0           (-nan      % of irred clauses)
+c asymmSub                 : 0           
+c elim-bin-lt-cl           : 0           
+c elim-tri-lt-cl           : 0           
+c elim-long-lt-cl          : 0           
+c lt-bin added due to v-elim: 0           
+c cl-elim-bin              : 0           
+c cl-elim-tri              : 0           
+c cl-elim-long             : 0           
+c cl-elim-avg-s            : -nan        
+c -------- Simplifier STATS END ----------
+c SCC time                 : 0.00        (-nan      % time)
+c ----- SCC STATS --------
+c time                     : 0.00        (-nan      per call)
+c called                   : 0           (-nan      new found per call)
+c found                    : 0           (-nan      % of all found)
+c ----- SCC STATS END --------
+c vrep replace time        : 0.00        (-nan      % time)
+c vrep tree roots          : 0           
+c vrep trees' crown        : 0           (-nan      leafs/tree)
+c --------- VAR REPLACE STATS ----------
+c time                     : 0.00        (-nan      per call)
+c trees' crown             : 0           (-nan      % of vars)
+c 0-depth assigns          : 0           (-nan      % vars)
+c lits replaced            : 0           
+c bin cls removed          : 0           
+c tri cls removed          : 0           
+c long cls removed         : 0           
+c long lits removed        : 0           
+c --------- VAR REPLACE STATS END ----------
+c vivif time               : 0.00        (-nan      % time)
+c vivif cache-irred time   : 0.00        (-nan      % time)
+c vivif cache-red time     : 0.00        (-nan      % time)
+c -------- ASYMM STATS --------
+c time                     : 0.00        (-nan      per call)
+c timed out                : 0           (-nan      % of calls)
+c asymm/checked/potential  : 0          /0/0
+c lits-rem                 : 0           
+c 0-depth-assigns          : 0           (-nan      % of vars)
+c --> cache-based on irred cls
+c time                     : 0.00        (-nan      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (-nan      % of lits tried)
+c called                   : 0           (-nan      % ran out of time)
+c --> cache-based on red cls
+c time                     : 0.00        (-nan      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (-nan      % of lits tried)
+c called                   : 0           (-nan      % ran out of time)
+c -------- ASYMM STATS END --------
+--------- Implication Cache Stats Start ----------
+c lits having cache        : -nan        % of decision lits
+c num elems in cache/lit   : -nan        extralits
+--------- Implication Cache Stats End   ----------
+c Conflicts in UIP         : 0           (-nan      confl/TOTAL_TIME_SEC)
+c Total time               : 0.00        
+c Mem used                 : 28          MB
+c Mem for longclauses      : 0           MB (0.00      %)
+c Mem for watches          : 0           MB (0.00      %)
+c Mem for vars             : 0           MB (0.00      %)
+c Mem for stamps           : 0           MB (0.00      %)
+c Mem for impl cache       : 0           MB (0.00      %)
+c Mem for history stats    : 0           MB (0.00      %)
+c Mem for search           : 0           MB (0.00      %)
+c Mem for temporaries      : 0           MB (0.00      %)
+c Mem for renumberer       : 0           MB (0.00      %)
+c Mem for simplifier       : 0           MB (0.00      %)
+c Mem for xor-finder       : 0           MB (0.00      %)
+c Mem for varReplacer      : 0           MB (0.00      %)
+c Mem for SCC              : 0           MB (0.00      %)
+c Mem for prober           : 0           MB (0.00      %)
+c Accounted for mem        : 0.01        %
+s SATISFIABLE
+v 0

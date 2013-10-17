@@ -1,0 +1,295 @@
+c Outputting solution to console
+c CryptoMiniSat version 70d17dc926dc2d1714853de04482225c5a702901
+c compiled with gcc version 4.2.1 Compatible Clang 3.4 (trunk 192034) (llvm/trunk 192031)
+c Executed with command line:cryptominisat ./input.cpp.cnf_boolean__Z17CHECK_reverse_3_4h
+c Reading file './input.cpp.cnf_boolean__Z17CHECK_reverse_3_4h'
+c -- header says num vars:            183
+c -- header says num clauses:         310
+c -- clauses added:            0 learnts,          183 normals 
+c -- vars added        309
+c Parsing time: 0.00 s
+c [clean] T: 0.0000 s
+c [clean] T: 0.0000 s
+c vrep vars 0 lits 0 rem-bin-cls 0 rem-tri-cls 0 rem-long-cls 0 T: 0.00 s 
+c Found components: 2 BP: 0.01M time: 0.01 s
+c Not printed total small (<300 vars) components:2 vars: 189
+c Solving component 0 num vars: 2 =======================================
+c Solved component 0 =======================================
+c Coming back to original instance, solved 1 component, 2 vars T: 0.01
+c Cache cleaned. Updated:       0 K Cleaned:       0 K Freed:       0 K T: 0.00
+c [bcache]  0-depth ass: 0 BXprop: 0 T: 0.00
+c [implicit] sub bin: 0 tri: 56 (stamp: 0, cache: 0) T: 0.00 T-out: N w-visit: 618
+c [probe] lits : 0.00M act vars: 0.31K BP+HP todo: 2736.00M
+c [clean] T: 0.0000 s
+c [probe] NumProps after perf multi: 2736.00M after numcall multi: 2736.00M (<- final)
+c [probe] time spent updating cache during probing: 0.0%
+c [probe] 0-depth assigns: 0 bsame: 0 Flit: 0 Visited: 598/614(97.4%)
+c [probe] probed: 580(94.5%) hyperBin:0 transR-Irred:0 transR-Red:0
+c [probe] BP: 0.0M HP: 0.0M T: 0.00
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 32
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [asymm] longirred tried: 0/0 cl-rem:0 lits-rem:0 T: 0.00 T-out: N
+c [vivif] cache-based irred--  cl tried        0 cl-sh     0 cl-rem    0 lit-rem      0 time-out N T: 0.00
+c [vivif] cache-based   red--  cl tried        0 cl-sh     0 cl-rem    0 lit-rem      0 time-out N T: 0.00
+c [vivif] asymm (tri+long) useful: 0/0/0 lits-rem:0 0-depth-assigns:0 T: 0.00 s time-out: N
+c [implicit] sub bin: 0 tri: 0 (stamp: 0, cache: 0) T: 0.00 T-out: N w-visit: 618
+c SCC new: 0 T: 0.00 s
+c [clean] T: 0.0000 s
+c vrep vars 0 lits 0 rem-bin-cls 0 rem-tri-cls 0 rem-long-cls 0 T: 0.00 s 
+c [clean] T: 0.0000 s
+c [simp] mem usage for occur of irred      0 MB
+c [simp] mem usage for occur of red        0 MB
+c [simp] Not linked in red 0/0 (0.00 %)
+c Mem for watches          : 0           MB (848.12    %)
+c XOR finding  Num XORs:      0 avg size: -nan T: 0.00
+c Cut XORs into 0 block(s) sum vars: 0 T: 0.00
+c Extracted XOR info. Units: 0 Bins: 0 0-depth-assigns: 0 T: 0.00
+c [block] long through: 0 tried: 0 blocked: 0 T :   0.00
+c [block] implicit tried: 36 bin: 0 tri: 36 t-out: N T : 0.00
+c  #try to eliminate: 37
+c  #var-elim: 37
+c  #time-out: N
+c  #time: 0.00
+c [subs] long subBySub: 0 subByStr: 0 lits-rem-str: 0 T: 0.00(0.00 is overhead) s
+c [v-elim] elimed: 37 / 37 / 309 T: 0.00 s T-out: 0
+c [v-elim] cl-new: 0 tried: 37 tested: 37 (100.00 % agressive)
+c [v-elim] subs: 0 learnt-bin rem: 0 learnt-tri rem: 0 learnt-long rem: 0 v-fix:    0
+c [simp] link-in T: 0.00 cleanup T: 0.00
+c [implicit] str lit bin: 0 lit tri: 0 (by tri: 0) (by stamp: 0) set-var: 0 T: 0.00 T-out: N w-visit: 618
+c [implicit] sub bin: 0 tri: 0 (stamp: 0, cache: 0) T: 0.00 T-out: N w-visit: 618
+c Cache cleaned. Updated:       0 K Cleaned:       0 K Freed:       0 K T: 0.00
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [cl-str] stamp-based lit-rem: 0 inv-lit-rem: 0 stamp-cl-rem: 0
+c [cl-str] bintri-based lit-rem: 0 cl-sub: 0
+c [cl-str] cache-based lit-rem: 0 cl-sub: 0
+c [asymm] longirred tried: 0/0 cl-rem:0 lits-rem:0 T: 0.00 T-out: N
+c [vivif] cache-based irred--  cl tried        0 cl-sh     0 cl-rem    0 lit-rem      0 time-out N T: 0.00
+c [vivif] cache-based   red--  cl tried        0 cl-sh     0 cl-rem    0 lit-rem      0 time-out N T: 0.00
+c [vivif] asymm (tri+long) useful: 0/0/0 lits-rem:0 0-depth-assigns:0 T: 0.00 s time-out: N
+c SCC new: 0 T: 0.00 s
+c calculated reachability. T: 0.000
+c Cache cleaned. Updated:       0 K Cleaned:       0 K Freed:       0 K T: 0.00
+c [clean] T: 0.0000 s
+c size4: 0 size5: 0 larger: 0
+c [clean] T: 0.0000 s
+c Doing burst search for 300 conflicts
+c 300-long burst search  learnt units:0 learnt bins: 0
+c Verified 0 clauses.
+c Verified 0 clauses.
+c ------- FINAL TOTAL SOLVING STATS ---------
+c UIP search time          : 0.00        (0.00      % time)
+c restarts                 : 1           (0.00      confls per restart)
+c time                     : 0.00        
+c decisions                : 257         (59.53     % random)
+c decisions/conflicts      : inf         
+c CONFLS stats
+c conflicts                : 0           (-nan      / sec)
+c conflsBinIrred           : 0           (-nan      %)
+c conflsBinRed             : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsLongIrred          : 0           (-nan      %)
+c conflsLongRed            : 0           (-nan      %)
+c LEARNT stats
+c units learnt             : 0           (-nan      % of conflicts)
+c bins learnt              : 0           (-nan      % of conflicts)
+c tris learnt              : 0           (-nan      % of conflicts)
+c long learnt              : 0           (-nan      % of conflicts)
+c otf-subs                 : 0           (-nan      /conflict)
+c otf-subs implicit        : 0           (-nan      %)
+c otf-subs long            : 0           (-nan      %)
+c otf-subs learnt          : 0           (-nan      % otf subsumptions)
+c otf-subs lits gained     : 0           (-nan      lits/otf subsume)
+c SEAMLESS HYPERBIN&TRANS-RED stats
+c advProp called           : 1           
+c hyper-bin add bin        : 0           (0.00      bin/call)
+c trans-red rem irred bin  : 0           (0.00      bin/call)
+c trans-red rem red bin    : 0           (0.00      bin/call)
+c CONFL LITS stats
+c orig                     : 0           (-nan      lit/confl)
+c rec-min effective        : 0           (-nan      % attempt successful)
+c rec-min lits             : 0           (-nan      % less overall)
+c further-min call%        : -nan        (-nan      % attempt successful)
+c bintri-min lits          : 0           (-nan      % less overall)
+c cache-min lits           : 0           (-nan      % less overall)
+c stamp-min call%          : -nan        (-nan      % attempt successful)
+c stamp-min lits           : 0           (-nan      % less overall)
+c final avg                : -nan        
+c Memory used              : 31.70        MB
+c single-thread CPU time   : 0.00         s
+c PROP stats
+c Mbogo-props              : 0.00        (inf       / sec)
+c MHyper-props             : 0.00        (-nan      / sec)
+c Mprops                   : 0.00        (inf       / sec)
+c varSetPos                : 155         (57.41     % of propagations)
+c varSetNeg                : 115         (42.59     % of propagations)
+c flipped                  : 145         (53.70     % of propagations)
+c props/decision           : 0.00        
+c props/conflict           : -nan        
+c ------- FINAL TOTAL SOLVING STATS END ---------
+c clause clean time        : 0.00        (0.00      % time)
+c ------ CLEANING STATS ---------
+c pre-removed              : 0           (-nan      % long learnt clauses)
+c pre-removed lits         : 0           (-nan      % long learnt lits)
+c pre-removed cl avg size  : -nan        
+c pre-removed cl avg glue  : -nan        
+c pre-removed cl avg num resolutions: -nan        
+c clean by glue            : 0           (-nan      % cleans)
+c clean by size            : 0           (-nan      % cleans)
+c clean by prop&confl      : 0           (-nan      % cleans)
+c cleaned cls              : 0           (-nan      % long learnt clauses)
+c cleaned lits             : 0           (-nan      % long learnt lits)
+c cleaned cl avg size      : -nan        
+c cleaned avg glue         : -nan        
+c remain cls               : 0           (-nan      % long learnt clauses)
+c remain lits              : 0           (-nan      % long learnt lits)
+c remain cl avg size       : -nan        
+c remain avg glue          : -nan        
+c ------ CLEANING STATS END ---------
+c reachability time        : 0.00        (0.00      % time)
+c ------- REACHABILITY STATS -------
+c time                     : 0.00        
+c dominator lits           : -nan        % of unknowns lits
+c dependent lits           : -nan        % of unknown lits
+c avg num. dominated lits  : -nan        
+c ------- REACHABILITY STATS END -------
+c 0-depth assigns          : 0           (0.00      % vars)
+c 0-depth assigns by thrds : 0           (0.00      % vars)
+c 0-depth assigns by CNF   : 0           (0.00      % vars)
+c probing time             : 0.00        (0.00      % time)
+c -------- PROBE STATS ----------
+c probe time               : 0.00        (inf       (Mega BP+HP)/s)
+c called                   : 1           (0.00      s/call)
+c unused Mega BP+HP        : 2735.99     (0.00      est. secs)
+c 0-depth-assigns          : 0           (0.00      % vars)
+c bothsame                 : 0           (0.00      % visited)
+c probed                   : 580         (inf       probe/sec)
+c loop iters               : 307         (94.46     % var probed)
+c failed                   : 0           (0.00      % of probes)
+c visited                  : 0.00        M lits (97.39     % of available lits)
+c bin add                  : 0           (0.00      % of bins)
+c irred bin rem            : 0           (0.00      % of bins)
+c red bin rem              : 0           (0.00      % of bins)
+c time                     : 0.00        s
+c CONFLS stats
+c conflicts                : 0           (-nan      / sec)
+c conflsBinIrred           : 0           (-nan      %)
+c conflsBinRed             : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsTriIrred           : 0           (-nan      %)
+c conflsLongIrred          : 0           (-nan      %)
+c conflsLongRed            : 0           (-nan      %)
+c PROP stats
+c Mbogo-props              : 0.01        (inf       / sec)
+c MHyper-props             : 0.00        (inf       / sec)
+c Mprops                   : 0.00        (inf       / sec)
+c varSetPos                : 343         (53.93     % of propagations)
+c varSetNeg                : 293         (46.07     % of propagations)
+c flipped                  : 600         (94.34     % of propagations)
+c -------- PROBE STATS END ----------
+c Simplifier time          : 0.00        (0.00      % time)
+c -------- Simplifier STATS ----------
+c time                     : 0.00        (-nan      % var-elim)
+c timeouted                : 0.00        % called
+c called                   : 1           (0.00      s per call)
+c v-elimed                 : 37          (13.70     % vars)
+c v-elimed: 37 / 37 / 309
+c 0-depth assigns          : 0           (0.00      % vars)
+c lit-rem-str              : 0           
+c cl-new                   : 0           
+c tried to elim            : 37          (100.00    % agressively)
+c cl-subs                  : 0           (-nan      % clauses)
+c blocked                  : 36          (inf       % of irred clauses)
+c asymmSub                 : 0           
+c elim-bin-lt-cl           : 0           
+c elim-tri-lt-cl           : 0           
+c elim-long-lt-cl          : 0           
+c lt-bin added due to v-elim: 0           
+c cl-elim-bin              : 7           
+c cl-elim-tri              : 0           
+c cl-elim-long             : 0           
+c cl-elim-avg-s            : 2.00        
+c -------- Simplifier STATS END ----------
+c SCC time                 : 0.00        (0.00      % time)
+c ----- SCC STATS --------
+c time                     : 0.00        (0.00      per call)
+c called                   : 2           (0.00      new found per call)
+c found                    : 0           (-nan      % of all found)
+c ----- SCC STATS END --------
+c vrep replace time        : 0.00        (0.00      % time)
+c vrep tree roots          : 0           
+c vrep trees' crown        : 0           (-nan      leafs/tree)
+c --------- VAR REPLACE STATS ----------
+c time                     : 0.00        (0.00      per call)
+c trees' crown             : 0           (0.00      % of vars)
+c 0-depth assigns          : 0           (0.00      % vars)
+c lits replaced            : 0           
+c bin cls removed          : 0           
+c tri cls removed          : 0           
+c long cls removed         : 0           
+c long lits removed        : 0           
+c --------- VAR REPLACE STATS END ----------
+c vivif time               : 0.00        (0.00      % time)
+c vivif cache-irred time   : 0.00        (0.00      % time)
+c vivif cache-red time     : 0.00        (0.00      % time)
+c -------- ASYMM STATS --------
+c time                     : 0.00        (0.00      per call)
+c timed out                : 0           (0.00      % of calls)
+c asymm/checked/potential  : 0          /0/0
+c lits-rem                 : 0           
+c 0-depth-assigns          : 0           (0.00      % of vars)
+c --> cache-based on irred cls
+c time                     : 0.00        (0.00      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (-nan      % of lits tried)
+c called                   : 2           (0.00      % ran out of time)
+c --> cache-based on red cls
+c time                     : 0.00        (0.00      s/call)
+c shrinked/tried/total     : 0          /0/0
+c subsumed/tried/total     : 0          /0/0
+c lits-rem                 : 0           (-nan      % of lits tried)
+c called                   : 2           (0.00      % ran out of time)
+c -------- ASYMM STATS END --------
+--------- Implication Cache Stats Start ----------
+c lits having cache        : 7.41        % of decision lits
+c num elems in cache/lit   : 1.18        extralits
+--------- Implication Cache Stats End   ----------
+c Conflicts in UIP         : 0           (0.00      confl/TOTAL_TIME_SEC)
+c Total time               : 0.01        
+c Mem used                 : 31          MB
+c Mem for longclauses      : 3           MB (10.83     %)
+c Mem for watches          : 0           MB (0.06      %)
+c Mem for vars             : 0           MB (0.05      %)
+c Mem for stamps           : 0           MB (0.08      %)
+c Mem for impl cache       : 0           MB (0.10      %)
+c Mem for history stats    : 0           MB (0.00      %)
+c Mem for search           : 0           MB (0.03      %)
+c Mem for temporaries      : 0           MB (0.01      %)
+c Mem for renumberer       : 0           MB (0.03      %)
+c Mem for simplifier       : 0           MB (0.04      %)
+c Mem for xor-finder       : 0           MB (0.02      %)
+c Mem for varReplacer      : 0           MB (0.01      %)
+c Mem for SCC              : 0           MB (0.02      %)
+c Mem for prober           : 0           MB (0.00      %)
+c Accounted for mem        : 11.27       %
+s SATISFIABLE
+v 1 2 3 4 5 -6 7 8 9 10 -11 -12 -13 14 15 -16 17 18 19 20 21 -22 -23 -24 25 -26 -27 -28 29 -30 31 -32 -33 34 35 36 37 -38 -39 40 41 42 -43 -44 -45 -46 47 -48 49 50 -51 52 -53 -54 55 56 -57 -58 -59 60 -61 -62 63 -64 -65 66 67 68 69 70 71 -72 73 -74 75 76 77 78 -79 80 81 -82 83 84 85 86 87 88 -89 -90 91 -92 93 -94 95 -96 97 98 -99 -100 -101 102 103 104 105 106 -107 108 109 110 111 -112 -113 114 115 -116 -117 118 119 -120 121 122 123 -124 -125 126 -127 -128 129 130 131 132 133 -134 -135 -136 137 138 -139 140 -141 142 143 -144 145 146 147 148 149 150 -151 152 153 154 155 -156 157 -158 -159 160 -161 -162 -163 164 165 166 167 168 -169 -170 171 -172 173 174 175 -176 -177 -178 179 -180 181 -182 183 -184 -185 -186 -187 -188 189 190 191 -192 -193 194 -195 -196 197 -198 199 -200 -201 -202 203 -204 205 206 -207 208 209 -210 211 212 -213 -214 -215 216 -217 218 219 -220 221 222 -223 224 -225 226 -227 228 -229 230 -231 232 233 234 235 236 237 238 239 240 -241 242 -243 -244 245 -246 247 248 249 250 251 252 -253 -254 -255 -256 257 258 259 260 -261 262 263 264 265 -266 267 268 -269 -270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 -308 309 0
